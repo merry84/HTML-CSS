@@ -1,0 +1,7 @@
+.shadowbox {
+    display: inline;
+    width: 15em;
+    margin: 2em;
+    padding: 10px 15px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
