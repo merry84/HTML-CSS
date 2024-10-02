@@ -1,0 +1,13 @@
+span{
+    color: red;
+   
+}
+p{
+    color: blue;
+}
+p+p{
+    background-color: aqua;
+}
+p+span{
+    font-weight: bold;
+}

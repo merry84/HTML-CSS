@@ -1,0 +1,28 @@
+ul{
+   display: flex;
+  list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: normal;
+    color: black;
+}
+
+ul,header,footer,section{
+    border: 1px solid;
+    margin-left: 6px;
+    margin-right: 10px;
+    padding-left: 3px;  
+}
+ul>li,h1,h2,p {
+        margin: 20px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*•	Selector List for Hover Effects:*/
+nav ul li a:hover{
+    color: orchid;
+    text-decoration: underline;
+    background-color: aqua;
+}

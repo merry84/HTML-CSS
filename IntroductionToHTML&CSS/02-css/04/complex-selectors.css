@@ -1,0 +1,43 @@
+nav a {
+    text-decoration: none;
+    color:blue
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+nav ul li:last-child a {
+    font-style: italic;
+}
+
+h1::before {
+    content: " << ";
+    font-weight: 750;
+    color: brown;
+}
+
+h1::after {
+    content: " >> ";
+    font-weight: 750;
+    color: brown;
+}
+
+.background-colored p {
+    background-color: aqua;
+}
+
+div * {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div p {
+    font-size: large;
+}
+img[alt="some women"]{
+    border-color: aqua;
+    
+    border: width 10px; 
+    border-style: solid;
+    
+}

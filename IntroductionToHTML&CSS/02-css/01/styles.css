@@ -1,0 +1,24 @@
+.highlight {
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+p{
+    font-size: x-large;
+}
+#main-title {
+    color: tomato;
+}
+#special-paragraph {
+    font-style: italic;
+}
+ul{
+    background-color: rgb(204, 226, 77);
+}
+ul>li{
+    font-style: italic;
+}
+li +li {
+    color: rgb(15, 82, 99);
+}
