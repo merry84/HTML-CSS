@@ -9,10 +9,9 @@ This is a summary of the blog post...
 
 Read more...
 About Me
-Short bio or description about the blog author.
+
 
 Categories
 Web Design
 HTML
 CSS
-© 2024 My Simple Blog. All rights reserved.

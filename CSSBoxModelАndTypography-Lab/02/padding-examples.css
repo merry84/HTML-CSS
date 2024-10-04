@@ -1,0 +1,16 @@
+.example {
+    border: 2px solid black;
+    margin: 20px;
+
+}
+
+.uniform {
+    padding: 20px;
+}
+
+.non-uniform {
+    padding: 10px 30px 20px 40px;
+}
+.parcentage{
+    padding: 5%;;
+}
