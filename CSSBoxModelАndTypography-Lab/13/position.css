@@ -11,16 +11,17 @@ section {
     height: 5em;
 }
 
-#relative {
+section:nth-of-type(2) .item:nth-of-type(2) {
     position: relative;
     left: 5em;
     top: 2em;
-    background: lightgreen;
+    background-color: lightgreen;
 }
 
-#rel-abs {
+
+section:nth-of-type(3) .item:nth-of-type(2) {
     position: absolute;
     left: 4em;
     top: 4em;
-    background: lightgreen;
+    background-color: lightgreen;
 }
