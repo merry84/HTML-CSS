@@ -1,0 +1,80 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+
+}
+
+/*•	Paragraphs, Ordered and Un-ordered lists should have padding-bottom – 1.5rem*/
+p,
+ul,
+ol {
+    padding-bottom: 1.5em;
+}
+
+/*•	Ordered and Un-ordered lists should have padding-left – 1.5rem*/
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+/*•	Headings should have the following styles
+•	Line-height – 1.2
+•	Margin-top – 1em
+•	Margin-bottom – 0.5em
+•	Font-family – Georgia
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+table {
+    width: 100%;
+    font-size: 15px;
+    border: 0.5px solid rgb(150, 145, 145);
+    text-align: left;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+thead tr {
+    border-bottom: 1px solid rgb(8, 8, 8);
+    padding: 2px 5px;
+    background-color: rgb(177, 175, 175);
+}
+
+tbody>tr,
+td {
+    padding: 2px 5px;
+    border: 0.5px solid rgb(226, 225, 225);
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(218, 216, 216);
+}
+
+blockquote {
+    text-align: left;
+
+    font-style: italic;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+    border-left: 4px solid rgb(226, 225, 225);
+}
+
+.author {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}

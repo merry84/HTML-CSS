@@ -2,7 +2,7 @@ Font Family: 'Arial, sans-serif'
 
 Font Size: 24px
 
-Font Weight: Bold
+
 
 Font Style: Italic
 
