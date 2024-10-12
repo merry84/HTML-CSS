@@ -1,0 +1,32 @@
+body{
+    margin: 20px 30px;
+    padding:20px 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+
+div.blog{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 800px;
+    height: 90%;
+    font-family: "Lato";
+}
+h2 h3{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+time{
+    font-weight: 700;
+}
+.footer{
+    font-style: italic;
+    padding-bottom: 20px;
+}
+h3{
+    padding-top: 25px;
+    margin-bottom: 0px;
+}

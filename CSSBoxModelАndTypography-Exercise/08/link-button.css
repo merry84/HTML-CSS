@@ -1,0 +1,39 @@
+div{
+    padding: 2px;
+    margin: 1px;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.link a ,button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+   
+
+}
+.button{
+    font-size: 12px;
+}
+.gray{
+    background-color: lightgrey;
+}
+.orange{
+    background-color: rgb(245, 188, 82);
+}
+.yellow{
+    background-color: rgb(247, 247, 173);
+}
+.none{
+    background-color: white;
+}
+.link a:last-of-type,button:last-of-type{
+    background-color: lightgrey;
+}

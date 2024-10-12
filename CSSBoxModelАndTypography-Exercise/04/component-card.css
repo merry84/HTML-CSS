@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 2em;
+    background: #eee;
+    font-family: "Lato";
+
+}
+
+.container {
+    display: block;
+    
+    background: rgb(250, 248, 246);
+    margin: 0 auto;
+    padding: 0px;
+
+}
+section p{
+    margin-bottom: 30px;
+}
+div {
+    display: block;
+    width: 25rem;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 5px ;
+    height: 520px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+   
+}
+h2, article, p{
+margin: 10px 25px;
+   
+}
+h2{
+    white-space: nowrap;
+}
+
+section .card {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.italic {
+    font-style: italic;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: left;
+   margin-left: 1px;
+
+}
+
+.bold {
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0;
+}
