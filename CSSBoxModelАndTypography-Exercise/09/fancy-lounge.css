@@ -1,11 +1,11 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     font-family: 'Arial', sans-serif;
 }
@@ -23,10 +23,12 @@ body, html {
     height: 100%;
     object-fit: cover;
 }
+
 .image img {
-    width: 100%; /*  ширинa на eкрана */
-    height: 80vh; 
-    display: block; 
+    width: 100%;
+    /*  ширинa на eкрана */
+    height: 80vh;
+    display: block;
 }
 
 /* Абсолютно позициониране текст*/
@@ -36,7 +38,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;    
+    color: white;
     border-radius: 8px;
 }
 
