@@ -1,0 +1,28 @@
+.flex-container {
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    width: 300px;
+    align-items: flex-start;
+
+}
+
+.item {
+    background: #dbdada;
+    padding: 20px;
+    border: 2px solid #000;
+    flex-basis: 300px;
+}
+.one-shrink .item{
+    flex-shrink: 1;
+}
+.zero .item
+{
+    flex-shrink: 0;
+}
+.only2nd .item{
+    flex-shrink: 0;
+}
+.only2nd .item:nth-child(2){
+    flex-shrink: 2;
+}
