@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    
+}
+.container{
+    width: 80%;
+    margin: 40px auto;
+    background: #FFF;
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+}
+.calendar{
+    border-radius: 3px;
+    border: 1px solid rgb(158, 156, 156);
+    margin: 5px;
+    display: flex;
+    
+}
+
+.calendar section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.week>div{
+    border: 0.5px solid rgb(173, 173, 173);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 auto;
+} 
+.notes >div{
+    border-top: 1px solid rgb(173, 173, 173);
+    border-right: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 auto;
+}
+.week > div:nth-of-type(1),
+.week > div:nth-of-type(7) {
+    flex: 1 1 100%;
+}
+
+.week{
+    flex-grow: 7;
+    border-right: 1px solid rgb(201, 199, 199);
+}
+.notes{
+    flex-grow: 3;
+}
